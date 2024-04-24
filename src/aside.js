@@ -1,3 +1,7 @@
+const feather = require('feather-icons');
+setTimeout(()=>{
+    feather.replace();
+}, 1000);
 const Aside = () => {
     return <aside>
         <div className="col-md-6">
@@ -37,7 +41,9 @@ const Aside = () => {
                     </select>
                 </div>
                 <div className="col-12 mt-3 mb-3">
-                    <button type="submit" className="btn btn-primary">Registrar Usuario</button>
+                    <button type="submit" className="btn btn-primary">Registrar Usuario                
+                    <i data-feather="save"></i>
+                    </button>
                 </div>
             </form>
         </div>

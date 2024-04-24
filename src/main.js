@@ -1,5 +1,7 @@
+
 const Main = () => {
     return         <main>
+        
     <div id="carouselExampleDark" className="carousel carousel-dark slide">
         <div className="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -48,5 +50,5 @@ const Main = () => {
             </div>
 </main>
 }
-
+ 
 export default Main;
