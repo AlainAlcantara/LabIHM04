@@ -1,0 +1,16 @@
+.color1 {
+    background-color: #b2cba3; 
+    padding: 20px; 
+}
+
+.color2 {
+    background-color: #e0df9f; 
+    display: flex; 
+    justify-content: center; 
+    padding: 20px; 
+}
+.btn:hover {
+    background-color: #a85e5b; 
+    cursor: pointer;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+}
